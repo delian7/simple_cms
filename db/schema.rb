@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20140511171635) do
   create_table "pages", force: true do |t|
     t.integer  "subject_id"
     t.string   "name"
-    t.integer  "permalink"
+    t.string   "permalink"
     t.integer  "position"
     t.boolean  "visible"
     t.datetime "created_at"
